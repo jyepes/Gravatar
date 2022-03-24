@@ -9,7 +9,7 @@ namespace Gravatar.ConsoleClient
         static async Task Main(string[] args)
         {
             GravatarApi api = new GravatarApi();
-            var response = await api.GetProfileAsync("myname@gmail.com"); 
+            var response = await api.GetProfileAsync("julio.yepes@3ysolutions.com.co"); 
             Console.WriteLine($"Name: {response.Name}");
             Console.WriteLine($"Display name: {response.DisplayName}");
             Console.WriteLine($"Photo: {response.Photo}");

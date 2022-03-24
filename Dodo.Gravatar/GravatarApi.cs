@@ -29,7 +29,7 @@ namespace Dodo.Gravatar
                     var entry = response.entry.FirstOrDefault();
 
 
-                    userInfo.Name = entry?.name.formatted ?? (entry.displayName ?? "");
+                    userInfo.Name = entry?.name?.formatted ?? (entry.displayName ?? "");
                     userInfo.Photo = entry.photos != null && entry.photos.Any() && !string.IsNullOrWhiteSpace(entry.photos.First().value) ? entry.photos.First().value : "";
                     userInfo.DisplayName = entry?.displayName ?? (entry.displayName ?? "");
                 }
