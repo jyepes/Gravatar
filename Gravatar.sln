@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dodo.Gravatar", "Dodo.Gravatar\Dodo.Gravatar.csproj", "{DA0D4ECD-3207-4BC1-B3C3-2663C63F9B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gravatar.ConsoleClient", "Gravatar.ConsoleClient\Gravatar.ConsoleClient.csproj", "{FB417F43-6615-430D-AAF1-789EECF89305}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA0D4ECD-3207-4BC1-B3C3-2663C63F9B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0D4ECD-3207-4BC1-B3C3-2663C63F9B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0D4ECD-3207-4BC1-B3C3-2663C63F9B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0D4ECD-3207-4BC1-B3C3-2663C63F9B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB417F43-6615-430D-AAF1-789EECF89305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB417F43-6615-430D-AAF1-789EECF89305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB417F43-6615-430D-AAF1-789EECF89305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB417F43-6615-430D-AAF1-789EECF89305}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
